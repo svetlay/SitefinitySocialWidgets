@@ -1,6 +1,6 @@
-This is a beta Facebook login widget
+This is a Facebook login widget that asks the user to allow access to Name & basic info and creates a Sitefinity Profile with the same data.
 
-The pacakge manager will install this package in the MVC folder of the sitefinity instanllation
+The pacakge manager will install this package in the MVC folder of the sitefinity installation.
 
 Make sure to 
 - copy the contents of global_merge.asax to your global asax
