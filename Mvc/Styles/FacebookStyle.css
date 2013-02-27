@@ -1,0 +1,116 @@
+﻿
+    #registrationWidget
+    {
+        background-color: #096199;
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0C80C9), color-stop(60%, #096199), to(#096199));
+        background-image: -webkit-linear-gradient(#0C80C9, #096199 60%, #096199);
+        background-image: -moz-linear-gradient(top, #0C80C9, #096199 60%, #096199);
+        background-image: -o-linear-gradient(#0C80C9, #096199 60%, #096199);
+        background-image: linear-gradient(#0C80C9, #096199 60%, #096199);
+        background-repeat: no-repeat;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0b7fc9',endColorstr='#ff096199',GradientType=0);
+  
+        float: left;
+        width: 500px;
+        opacity: 1 !important;
+        color: white;
+        text-shadow: 3px 1px 3px black;
+        z-index: 1002;
+    }
+
+    #registrationWidget a
+    {
+        color: #7cadd1;
+    }
+    
+    h2.title
+    {
+        font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+       
+        font-size: 2.8em;
+        font-weight: normal;
+        letter-spacing: normal;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        color: white;
+        text-shadow: 3px 1px 3px black;
+        -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15);
+    
+    }
+
+    .profileImage
+    {
+        float: left;
+        width: 200px;
+    }
+    .profileImage img
+    {
+        /*padding: 5px;
+    
+        -moz-box-shadow: 1px 1px 5px #999;
+        -webkit-box-shadow: 1px 1px 5px #999;
+        box-shadow: 1px 1px 5px #999;
+        background-color:white;*/
+    }
+
+.profileInfo
+{
+    padding:0 10px;
+    float: left;
+}
+    
+    .profileInfo ul
+    {
+        list-style-type: none;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .profileInfo ul li
+    {
+        line-height: 18px;
+    }
+ 
+    #registrationButton
+    {
+       
+    }
+    
+    #registrationWidget .closeButton
+    {
+        position: absolute;
+        right: 5px;
+        top: 2px;
+        cursor: pointer;
+        font-size: 18px;
+        color: white;
+        font-weight: bold;
+    }
+    #registrationButton .regButton
+    {
+    
+        color: #fff;
+        text-shadow: 2px 2px 2px #000;
+        background-color: #096199;
+        border-radius:4px;
+        display:inline-block;
+        padding: 5px;
+        font-size:14px;
+        font-weight:bold;
+        cursor:pointer;
+        
+        
+    }
+    
+    #album
+    {
+        position: relative;
+    }
+
+    .overlay
+    {
+    
+        -webkit-box-shadow: 0px 0px 45px 5px rgba(74, 74, 74, 0.59);
+        -moz-box-shadow: 0px 0px 45px 5px rgba(74, 74, 74, 0.59);
+        box-shadow: 0px 0px 45px 5px rgba(74, 74, 74, 0.59);
+    }
+    

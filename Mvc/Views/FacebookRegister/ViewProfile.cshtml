@@ -1,0 +1,33 @@
+@model SitefinityWebApp.Mvc.Models.SitefinityUserModel
+
+<link rel="stylesheet" type="text/css" href="/Mvc/Styles/FacebookStyle.css" />
+
+<div id="album">
+
+    <div id="registrationWidget" class="overlay">
+
+        <div class="profileImage">
+            <img src='@Model.Avatar' width="200px" />
+        </div>
+        <div class="profileInfo">
+            
+            <h2 class="title">Profile Info</h2>
+            <ul>
+                <li><span id="userFirstName">@Model.FirstName</span> <span id="userlastName">@Model.LastName</span></li>
+                <li>@Model.Email</li>
+                <li>@Model.Gender</li>
+                <li>@Model.Location</li>
+                <li>@Model.Birthday</li>
+            </ul>
+           
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+ <script type="text/javascript" src="Mvc/Scripts/SocialWidgetsScripts.js"></script>
+

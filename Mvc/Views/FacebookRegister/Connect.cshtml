@@ -1,0 +1,17 @@
+@using SitefinityWebApp.Mvc.Helpers
+
+    <div>
+        @{
+            
+            var AuthenticateUrl = Request.Url.AbsoluteUri.ToString() + "/AuthenticateFacebook";
+        }
+        
+
+        <a href='@Html.SitefinityActionLink("AuthenticateFacebook")'>
+            <img src="Mvc/Images/Facebook.png"  />  
+
+            </a>
+        
+        
+       
+    </div>
